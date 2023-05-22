@@ -59,7 +59,7 @@
   align-items: flex-end;
   flex-direction: column;
 
-  .badge-cmp,
+  .badge-cmp,.tag-cmpp,
   .tag-cmp {
     padding: 1rem 2rem;
     background: var(--white-color);
@@ -73,11 +73,36 @@
   .tag-cmp {
     flex-direction: column;
     margin-top: 3rem;
+   p {
+      width: 100%;
+      text-transform: uppercase;
+      text-align: right;
+    }
+    
+  }
+
+  .tag-cmpp {
+    flex-direction: column;
+    margin-top: 3rem;
+
+    a {
+      text-decoration: none;
+    }
 
     p {
       width: 100%;
       text-transform: uppercase;
       text-align: right;
+      color:  var(--gray-color);// Set the initial color of the <p> tag
+
+      &:hover {
+        color: white; // Change the text color to white on hover
+      }
+    }
+
+    &:hover {
+      background-color: var(--secondary-color);
+      color: white;
     }
   }
 

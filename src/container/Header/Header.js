@@ -36,6 +36,13 @@ const Header = () => (
           <p className="p-text">Web Developer</p>
           <p className="p-text">Freelancer</p>
         </div>
+        <div className="tag-cmpp app__flex">
+         <a href="https://drive.google.com/file/d/1Jsav1WHeeXpsiFA54H40aTU20105ZXJe/view?usp=sharing" target="_blank" rel="noreferrer">
+         <p className="p-text">Download CV</p>
+         </a>
+        
+
+        </div>
       </div>
     </motion.div>
 
